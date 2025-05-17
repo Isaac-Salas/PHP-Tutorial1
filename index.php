@@ -69,7 +69,8 @@
                             <td><?php echo $row['apellidos']; ?></td>
                             <td>
                                 <a href="actualizar.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-warning">Editar</a>
-                                <a href="delete.php?id=<?php echo $row['cod_estudiante']; ?>" class="btn btn-danger">Borrar</a>
+                                !
+                                <a href="delete.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-danger">Borrar</a>
                             </td>
                         </tr>
                     <?php
